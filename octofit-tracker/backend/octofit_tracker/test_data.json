@@ -1,20 +1,34 @@
 {
   "users": [
-    {"email": "john.doe@example.com", "name": "John Doe", "password": "password123"},
-    {"email": "jane.smith@example.com", "name": "Jane Smith", "password": "password456"}
+    {"username": "thundergod", "email": "thundergod@mhigh.edu", "password": "thundergodpassword"},
+    {"username": "metalgeek", "email": "metalgeek@mhigh.edu", "password": "metalgeekpassword"},
+    {"username": "zerocool", "email": "zerocool@mhigh.edu", "password": "zerocoolpassword"},
+    {"username": "crashoverride", "email": "crashoverride@mhigh.edu", "password": "crashoverridepassword"},
+    {"username": "sleeptoken", "email": "sleeptoken@mhigh.edu", "password": "sleeptokenpassword"}
   ],
   "teams": [
-    {"name": "Team Alpha", "members": ["john.doe@example.com", "jane.smith@example.com"]}
+    {"name": "Blue Team", "members": ["thundergod@mhigh.edu", "metalgeek@mhigh.edu"]},
+    {"name": "Gold Team", "members": ["zerocool@mhigh.edu", "crashoverride@mhigh.edu", "sleeptoken@mhigh.edu"]}
   ],
   "activities": [
-    {"user": "john.doe@example.com", "activity_type": "Running", "duration": 30, "date": "2025-04-09"},
-    {"user": "jane.smith@example.com", "activity_type": "Cycling", "duration": 45, "date": "2025-04-08"}
+    {"user": "thundergod@mhigh.edu", "activity_type": "Cycling", "duration": "01:00:00"},
+    {"user": "metalgeek@mhigh.edu", "activity_type": "Crossfit", "duration": "02:00:00"},
+    {"user": "zerocool@mhigh.edu", "activity_type": "Running", "duration": "01:30:00"},
+    {"user": "crashoverride@mhigh.edu", "activity_type": "Strength", "duration": "00:30:00"},
+    {"user": "sleeptoken@mhigh.edu", "activity_type": "Swimming", "duration": "01:15:00"}
   ],
   "leaderboard": [
-    {"team": "Team Alpha", "points": 100}
+    {"user": "thundergod@mhigh.edu", "score": 100},
+    {"user": "metalgeek@mhigh.edu", "score": 90},
+    {"user": "zerocool@mhigh.edu", "score": 95},
+    {"user": "crashoverride@mhigh.edu", "score": 85},
+    {"user": "sleeptoken@mhigh.edu", "score": 80}
   ],
   "workouts": [
-    {"name": "Morning Yoga", "description": "A relaxing yoga session to start the day.", "duration": 60},
-    {"name": "HIIT Training", "description": "High-intensity interval training for fat burning.", "duration": 30}
+    {"name": "Cycling Training", "description": "Training for a road cycling event"},
+    {"name": "Crossfit", "description": "Training for a crossfit competition"},
+    {"name": "Running Training", "description": "Training for a marathon"},
+    {"name": "Strength Training", "description": "Training for strength"},
+    {"name": "Swimming Training", "description": "Training for a swimming competition"}
   ]
 }
